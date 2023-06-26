@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <!--    <RelativeLayout-->
+    <!--        android:layout_width="0dp"-->
+    <!--        android:layout_height="match_parent"-->
+    <!--        android:layout_weight="1">-->
+
+    <!--        <ImageView-->
+    <!--            android:id="@+id/iv_4444"-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="match_parent"-->
+    <!--            android:layout_above="@id/tv_4444_size" />-->
+
+    <!--        <TextView-->
+    <!--            android:id="@+id/tv_4444_size"-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:layout_alignParentBottom="true" />-->
+    <!--    </RelativeLayout>-->
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@color/black">
+
+        <ImageView
+            android:id="@+id/iv_8888"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@id/tv_8888_size" />
+
+        <TextView
+            android:id="@+id/tv_8888_size"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:textColor="@color/white" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="#f00">
+
+        <ImageView
+            android:id="@+id/iv_565"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@id/tv_565_size" />
+
+        <TextView
+            android:id="@+id/tv_565_size"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:textColor="@color/white" />
+    </RelativeLayout>
+
+    <!--    <RelativeLayout-->
+    <!--        android:layout_width="0dp"-->
+    <!--        android:layout_height="match_parent"-->
+    <!--        android:layout_weight="1">-->
+    <!--        <ImageView-->
+    <!--            android:id="@+id/iv_4444"-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="match_parent"-->
+    <!--            android:layout_above="@id/tv_4444_size" />-->
+
+    <!--        <TextView-->
+    <!--            android:id="@+id/tv_4444_size"-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:layout_alignParentBottom="true" />-->
+    <!--    </RelativeLayout>-->
+</LinearLayout>
