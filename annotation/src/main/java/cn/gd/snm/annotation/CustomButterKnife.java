@@ -9,7 +9,7 @@ import java.lang.reflect.Method;
 public class CustomButterKnife {
 
     public static void bind(Object object) {
-        String simpleName = object.getClass().getSimpleName();
+        String simpleName = object.getClass().getName();
         String newClassName = simpleName + "$$ViewBind";
         try {
             Class<?> newClass = Class.forName(newClassName);
